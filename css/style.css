@@ -1,3 +1,6 @@
+body {
+  padding-bottom: 50px;
+}
 .logo {
   width: 100%;
   padding-bottom: 20px;
@@ -7,4 +10,129 @@
   width: 100px;
   margin: 0 auto;
   display: block;
+}
+.organization-name {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 900;
+}
+.table-striped td {
+  vertical-align: middle;
+}
+.table-striped .btn {
+  padding: 0px 10px;
+  font-size: 18px;
+}
+.add-btn {
+  margin-bottom: 20px;
+}
+.vertical-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+.vertical-table tr {
+  border-bottom: 1px solid #ddd;
+}
+.vertical-table th {
+  text-align: left;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: bold;
+}
+.vertical-table td {
+  padding: 10px;
+  color: #333;
+}
+.vertical-table tr:hover {
+  background-color: #eaeaea;
+}
+.add-btn button {
+  width: 185px;
+}
+.add-btn button i,
+.add-btn button svg {
+  margin-right: 5px;
+}
+.add-btn button svg {
+  margin-top: -5px;
+}
+.bt-search {
+  width: 50px !important;
+}
+input:focus,
+button:focus,
+select:focus {
+  box-shadow: none !important;
+}
+input:focus-visible,
+button:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+.gj-datepicker-bootstrap {
+  margin-bottom: 0 !important;
+}
+#loadingOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.fixedButton {
+  position: absolute;
+  bottom: -5px;
+  right: 15px;
+  z-index: 950;
+}
+.btn-round {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+a.linkAlunos,
+.view-modal-dynamic {
+  text-decoration: none;
+}
+.btn-group.datas button {
+  display: block;
+  height: 40px;
+  width: 50px;
+}
+.btn-group.datas button.databt {
+  width: 110px;
+}
+.btn-group.datas button.hojebt {
+  width: 60px;
+}
+.main-menu a {
+  width: 90px;
+}
+.main-menu .label {
+  margin-left: 3px;
+}
+#agendaLotada {
+  display: none;
+}
+.card-header-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
 }
